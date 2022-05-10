@@ -16,8 +16,8 @@
 
     -->
     <div class="header">
-        
-       
+
+
         <div class="headerElements">
             <a href="Achievements.html">
                 <h1> Achievements</h1>
@@ -49,10 +49,28 @@
                     <h2>INTRO</h2>
                     <p>What I am all about</p>
                 </div>
-               
+
 
             </div>
             <div class="left4">
+                
+<p>A script on this page starts this clock:</p>
+
+<p id="practice"></p>
+<button onclick="clearInterval(myVar)">Stop time</button>
+
+<script>
+    let myVar = setInterval(myTimer ,1000);
+    function myTimer() {
+    const d = new Date();
+    document.getElementById("practice").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+</body>
+</html>
+
+                
 
 
             </div>
@@ -60,14 +78,20 @@
 
 
             </div>
-           
+
 
         </div>
         <div class="right">
             <div class="right1">
-                <div class="right1Content"><h2>Arijit</h2></div>
-                <div class="right1Content"><h1>BAKSHI</h1></div>
-                <div class="right1Content"><p>Web Developer</p></div>
+                <div class="right1Content">
+                    <h2>Arijit</h2>
+                </div>
+                <div class="right1Content">
+                    <h1>BAKSHI</h1>
+                </div>
+                <div class="right1Content">
+                    <p>Web Developer</p>
+                </div>
             </div>
 
             <div class="right2">
@@ -86,30 +110,31 @@
 
             <div class="right3">
                 <div class="right3Content">
-                    <p>My name is Arijit Bakshi. I am 21 years old. I am studying bachelor in computer science. </br> 
+                    <p>My name is Arijit Bakshi. I am 21 years old. I am studying bachelor in computer science. </br>
                         I have completed my SSC from Goverment laboratory high
-                           school, Dhaka. <br>
-   
-                      I have completed my HSC from UDAYAN school and college. 
-                      Since I had interest in computer  mechanices and programs,so I tried  to set my  goal in CSE.<br>    </P>
-                   </p>
+                        school, Dhaka. <br>
+
+                        I have completed my HSC from UDAYAN school and college.
+                        Since I had interest in computer mechanices and programs,so I tried to set my goal in CSE.<br>
+                    </P>
+                    </p>
                 </div>
             </div>
 
             <div class="right4">
                 <div class="right4Content1">
                     <h2>Skills:</h2>
-                    <p> painting and pencil sketching  </p>
-                    <p> quick understanding capability</p>               
-                   
+                    <p> painting and pencil sketching </p>
+                    <p> quick understanding capability</p>
 
-                    
+
+
 
                 </div>
                 <div class="right4Content2">
-                   <h2>MY favorite quation</h2> 
-                   <p>"Where there is a will there is a way"</p>
-                   <p>"Every cloud has a silver lining"</p>
+                    <h2>MY favorite quation</h2>
+                    <p>"Where there is a will there is a way"</p>
+                    <p>"Every cloud has a silver lining"</p>
 
 
                 </div>
@@ -119,14 +144,30 @@
 
             <div class="right5">
                 <b>My favorite author <b>
-                <p>Shatyajit Ray</p>
-                <p>Shirshendu mukhopadhyay</p>
+                        <p>Shatyajit Ray</p>
+                        <p>Shirshendu mukhopadhyay</p>
 
             </div>
 
         </div>
     </div>
 
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="sd" />
 </body>
 
 </html>
